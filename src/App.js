@@ -5,12 +5,14 @@ import Tasks from "./pages/Tasks";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Welcome />}/>
-      <Route path="/signup" element={<Signup />}/>
-      <Route path="/logout" element={<Welcome />}/>
-      <Route path="/tasks/:id" element={<Tasks />}/>
-    </Routes>
+    <div>
+      <Routes>
+        <Route path="/" element={<Welcome />}/>
+        <Route path="/signup" element={<Signup />}/>
+        <Route path="/logout" element={<Welcome />}/>
+        <Route path="/tasks/:id" element={<Tasks />}/>
+      </Routes>
+    </div>
   )
 }
 
