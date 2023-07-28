@@ -15,7 +15,7 @@ const UserTasks = () => {
   
   const fetchUserName = async () => {
     try {
-      const response = await axios.get(`https://remind-me-app-backend.onrender.com/${id}`)
+      const response = await axios.get(`https://remind-me-app-backend.onrender.com/users/${id}`)
       setUserName(response.data.username)
     } catch (error) {
       console.log(error);
