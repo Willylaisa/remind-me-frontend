@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Welcome from "./pages/Welcome";
-import Signup from "./pages/Signup";
-import Tasks from "./pages/Tasks";
+import Welcome from "./pages/Welcome.js";
+import Signup from "./pages/Signup.js";
+import Tasks from "./pages/Tasks.js";
 
 function App() {
   return (
