@@ -23,7 +23,7 @@ const UserTasks = () => {
   }
   const fetchTasks = async () => {
     try {
-      const response = await axios.get("https://remind-me-app-backend.onrender.com/tasks/")
+      const response = await axios.get("https://remind-me-app-backend.onrender.com/tasks")
       setTasks(response.data)
     } catch (error) {
       console.log( error);
